@@ -1,0 +1,25 @@
+package day06_ifStatements;
+
+public class IfStatementsIntro {
+
+    public static void main(String[] args) {
+
+        int number = -100;
+
+        // System.out.println(number + " is positive"); NO condition
+
+        boolean isPositive = number > 0;
+        boolean isNegative = number < 0;
+        boolean isZero = number == 0;
+
+        if (isPositive){
+            System.out.println(number + " is positive"); // negative so no print
+        }
+        if (isNegative){
+            System.out.println(number + " is negative");
+        }
+        if (isZero){
+            System.out.println(number + " is zero");
+        }
+    }
+}
